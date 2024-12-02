@@ -28,7 +28,7 @@ export const GameOver = ({
         <p className="text-gray-600 mb-4">
           {isCompleted
             ? "모든 풍선을 성공적으로 터트렸습니다!"
-            : "가장 큰 체인을 선택하지 않았습니다."}
+            : "가장 연속된 풍선을 선택하지 않았습니다."}
         </p>
         <p className="text-xl font-bold mb-6">최종 점수: {score}점</p>
         <div className="flex gap-4 justify-center">
