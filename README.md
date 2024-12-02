@@ -59,29 +59,7 @@ CSS Transition 활용
 Z-index 조정으로 자연스러운 시각 효과
 
 📂 프로젝트 구조 (주요 파일)
-balloon-game/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── components/
-│   │   ├── BalloonBoard.tsx
-│   │   ├── GameOver.tsx
-│   │   ├── GameRefresh.tsx
-│   │   ├── GameSetup.tsx
-│   │   ├── HelpModal.tsx
-│   │   ├── Modal.tsx
-│   │   └── ScordBoard.tsx
-│   ├── hooks/
-│   │   ├── useGameLogic.ts
-│   │   └── useGameSetup.ts
-│   ├── utils/
-│   │   └── game.ts
-│   ├── App.tsx
-│   └── index.tsx
-├── .gitignore
-├── package.json
-├── README.md
-└── tsconfig.json
+balloon-game/ ├── public/ │ ├── index.html ├── src/ │ ├── components/ │ │ ├── BalloonBoard.tsx # 게임 격자판 관련 컴포넌트 │ │ ├── GameOver.tsx # 게임 오버 시 모달창 │ │ ├── GameRefresh.tsx # 게임 상태 관련 (새로고침, 재시작, 도움말) 컴포넌트 │ │ ├── GameSetup.tsx # 초반 게임 설정 컴포넌트 │ │ ├── HelpModal.tsx # 도움말 모달창 컴포넌트 │ │ ├── Modal.tsx # 모달창 컴포넌트 │ │ └── ScoreBoard.tsx # 스코어 보드 컴포넌트 │ ├── hooks/ │ │ ├── useGameLogic.ts # 게임 로직 관련 훅 │ │ └── useGameSetup.ts # 게임 설정 관련 훅 │ ├── utils/ │ │ ├── game.ts # 게임 관련 타입 및 로직 │ │ └── balloonLogic.ts # DFS 로직 함수 │ ├── App.tsx # 메인 컴포넌트 │ └── index.tsx # 엔트리 포인트 ├── .gitignore ├── package.json ├── README.md └── tsconfig.json
 BalloonBoard.tsx - 게임 격자판 관련 컴포넌트
 GameOver.tsx - 게임 오버시 모달창
 GameRefresh.tsx - 게임 상태 관련 (새로고침, 재시작, 도움말) 컴포넌트
